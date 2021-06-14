@@ -128,7 +128,7 @@ Como último paso configuro el archivo **fstab** que se encuentra en la ruta **/
 Para configuara SSH y que nos nos pida la copntraseña cada vez que nos queremos conectar el cliente-03 hacemos lo siguiente.
 
     ssh-keygen
-    ssh-.copy-id user-cliente-03@192.168.20.3
+    ssh-copy-id user-cliente-03@192.168.20.3
 
 Luego nos pide por unica vez la contraseña, la ingresamos y ya está todo hecho.
 
